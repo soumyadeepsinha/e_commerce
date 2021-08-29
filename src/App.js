@@ -13,8 +13,7 @@ const App = () => {
   }
 
   const fetchCart = async () => {
-    const { data } = await commerce.cart.retrieve();
-    setProducts(data);
+    setCart(await commerce.cart.retrieve());
   }
 
   useEffect(() => {
