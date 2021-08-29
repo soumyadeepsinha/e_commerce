@@ -1,7 +1,7 @@
 import { AppBar, Badge, IconButton, Toolbar, Typography } from '@material-ui/core';
 import { ShoppingCart } from '@material-ui/icons';
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import logo from '../../assets/commerce.png';
 import useStyles from './styles';
 
